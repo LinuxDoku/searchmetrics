@@ -1,8 +1,0 @@
-{
-    "source": {
-        "include": ["searchmetrics.js", "endpoints.js"]
-    },
-    "opts": {
-        "destination": "./doc/"
-    }
-}
