@@ -12,7 +12,7 @@ npm install searchmetrics
 
 # Usage
 ```javascript
-var searchmetrics = require('searmetrics')('your api key', 'your api secret');
+var searchmetrics = require('searchmetrics')('your api key', 'your api secret');
 searchmetrics.researchOrganicGetValueSeoVisibility({
 	url: 'linux-doku.de'
 }, function(data) {

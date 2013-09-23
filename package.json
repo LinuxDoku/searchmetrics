@@ -1,6 +1,6 @@
 {
 	"name": "searchmetrics",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Martin Lantzsch <martin@linux-doku.de>",
 	"description": "An easy to use abstraction layer for the searchmetrics api.",
 	"main": "./searchmetrics",
