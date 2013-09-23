@@ -1,0 +1,25 @@
+{
+	"name": "searchmetrics",
+	"version": "1.0.0",
+	"author": "Martin Lantzsch <martin@linux-doku.de>",
+	"description": "An easy to use abstraction layer for the searchmetrics api.",
+	"main": "./searchmetrics",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LinuxDoku/searchmetrics.git"
+	},
+	"keywords": [
+		"api",
+		"seo",
+		"searchmetrics"
+	],
+	"dependencies": {
+		"oauth": "*"
+	},
+	"devDependencies": {
+		"jsdom": "*",
+		"async": "*",
+		"jsdoc": "3.*"
+	},
+	"license": "MIT"
+}
