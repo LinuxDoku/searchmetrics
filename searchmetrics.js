@@ -1,5 +1,5 @@
-var OAuth = require('OAuth');
-var url = require('url');
+var OAuth = require('OAuth'),
+	url = require('url');
 
 /**
  * searchmetrics api client for node

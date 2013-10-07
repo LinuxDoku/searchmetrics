@@ -1,6 +1,6 @@
 {
 	"name": "searchmetrics",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Martin Lantzsch <martin@linux-doku.de>",
 	"description": "An easy to use abstraction layer for the searchmetrics api.",
 	"main": "./searchmetrics",
@@ -19,7 +19,7 @@
 	"devDependencies": {
 		"jsdom": "*",
 		"async": "*",
-		"jsdoc": "3.*"
+		"jsdoc": "3.2.1"
 	},
 	"license": "MIT"
 }

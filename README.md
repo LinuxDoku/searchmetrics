@@ -1,8 +1,10 @@
 # searchmetrics
-A thin abstraction layer for the searmetrics api. It's auto generated from the current api docs at http://api.searchmetrics.com.
+A thin abstraction layer for the searchmetrics api. It's auto generated from the current api docs at http://api.searchmetrics.com.
 
 The motivation to develop this library was to provide an bullet prove and well documented (also code documented) way to write some nice
 apps based upon the searchmetrics api like an real time dashboard, which shows the ups and downs of our customers.
+
+[API Documentation](http://linuxdoku.github.io/searchmetrics/doc/searchmetrics.html) | [NPM Registry](https://npmjs.org/package/searchmetrics)
 
 # Install
 Simply hack in your machines terminal:
