@@ -5,14 +5,14 @@
  * @license MIT
  */
 
-var jsdom = require('jsdom');
-var fs = require('fs');
-var async = require('async');
-var jquery = fs.readFileSync('./build/jquery.min.js', 'utf-8');
-var baseUrl = 'http://api.searchmetrics.com/';
-
-var endpoints = [];
-var generated = 'module.exports = function(searchmetrics) {\n';
+var jsdom = require('jsdom'),
+	fs = require('fs'),
+	async = require('async'),
+	jquery = fs.readFileSync('./build/jquery.min.js', 'utf-8'),
+	baseUrl = 'http://api.searchmetrics.com/',
+	
+	endpoints = [],
+	generated = 'module.exports = function(searchmetrics) {\n';
 
 var generate = function(url, callback) {
 	console.log('request ', url);
@@ -21,7 +21,7 @@ var generate = function(url, callback) {
 		src: [jquery],
 		done: function (errors, window) {
 			console.log('loaded ', url);
-			var $ = window.$
+			var $ = window.$,
 				name = $('#content .grid_9 h1').text();
 
 			/**
@@ -42,7 +42,7 @@ var generate = function(url, callback) {
 					for(var i = 1; i < elements.length; i++) {
 					 	var e = $(elements[i]);
 						if(e.is('p') && e.text() != '') {
-					    	desc += e.text().replace(/\n/g, ' ') + ' ';
+							desc += e.text().replace(/\n/g, ' ') + ' ';
 						} else if(e.is('h2')) {
 							break;
 						}
